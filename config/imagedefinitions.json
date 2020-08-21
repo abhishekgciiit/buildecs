@@ -1,0 +1,6 @@
+[
+  {
+    "name": "python-app",
+    "imageUri": "160655811180.dkr.ecr.us-east-2.amazonaws.com/container-devsecops-wksp-sample:latest"
+  }
+]
