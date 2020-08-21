@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Testing Testing"
+  post_build:
+    commands:
+      - echo "Testing post build"
+
+artifacts:
+  files:
+    - '**/*.json'
+  discard-paths: yes
+  base-directory: 'config/'
